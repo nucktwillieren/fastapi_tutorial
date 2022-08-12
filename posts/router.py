@@ -7,7 +7,7 @@ from . import models
 
 Base.metadata.create_all(engine)
 
-router = APIRouter(prefix="/api/v1/posts")
+router = APIRouter()
 
 # Dependency
 
